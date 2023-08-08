@@ -1,0 +1,7 @@
+{
+  "name": "checkboxLabelBug",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
