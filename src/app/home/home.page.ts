@@ -8,7 +8,6 @@ import {SwiperOptions} from 'swiper/types';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  @ViewChild('swiperEl', { static: true }) swiperEl: ElementRef | undefined;
   items = [
     {
       label: 'test1',
@@ -83,14 +82,5 @@ export class HomePage {
     },    {
       label: 'test6',
     },
-
   ]
-
-  // ngAfterViewInit() {
-  //   const swiperParams: SwiperOptions = {
-  //     initialSlide: 1,
-  //   };
-  //   Object.assign(this.swiperEl?.nativeElement, swiperParams);
-  //   this.swiperEl?.nativeElement.initialize();
-  // }
 }
